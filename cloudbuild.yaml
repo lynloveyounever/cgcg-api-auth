@@ -3,3 +3,5 @@ steps:
     args:
       - echo
       - hello CGCG
+options:
+  logging: CLOUD_LOGGING_ONLY
