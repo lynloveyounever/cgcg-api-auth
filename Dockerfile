@@ -8,7 +8,7 @@ RUN pip install gunicorn
 ENV PORT 8080
 
 # 複製一個最小的 Python 檔案作為 Web 應用程式
-COPY app.py .
+COPY main.py .
 
 # 暴露端口 (非必需，但有助於文件記錄)
 EXPOSE 8080
