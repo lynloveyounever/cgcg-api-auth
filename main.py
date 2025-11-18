@@ -152,6 +152,7 @@ def health_check():
          raise HTTPException(status_code=500, detail="JWT Secret Key not initialized.")
     return {"status": "ok", "message": "Auth Service is running."}
 
+
 # --- 啟動說明 ---
 if __name__ == "__main__":
     # 在您的 `.env` 文件中設定 JWT_SECRET_KEY
