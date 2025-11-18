@@ -36,4 +36,4 @@ EXPOSE 8080
 # ***最終啟動命令：使用 Uvicorn (Shell 格式)***
 # 確保 $PORT 變數被正確展開。
 # main:app 指向 main.py 檔案中的 app 實例。
-CMD uvicorn main:app --host 0.0.0.0 --port ${PORT}
+CMD python -m uvicorn main:app --host 0.0.0.0 --port ${PORT}
