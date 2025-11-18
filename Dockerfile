@@ -14,4 +14,4 @@ COPY app.py .
 EXPOSE 8080
 
 # 啟動 Gunicorn，監聽 0.0.0.0:$PORT，並運行 app.py 裡的應用程式
-CMD gunicorn --bind 0.0.0.0:$PORT app:app
+CMD gunicorn --bind 0.0.0.0:$PORT main:app
