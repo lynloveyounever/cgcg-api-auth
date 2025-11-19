@@ -1,1 +1,1 @@
-# CGCG Auth Microservice
+# cgcg-dev-sample
